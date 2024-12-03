@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraph"
+    app:startDestination="@id/signInFragment">
+
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.example.pseudosteam.SignInFragment"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in" />
+    <fragment
+        android:id="@+id/ownedGamesFragment"
+        android:name="com.example.pseudosteam.OwnedGamesFragment"
+        android:label="fragment_owned_games"
+        tools:layout="@layout/fragment_owned_games" />
+    <fragment
+        android:id="@+id/achievementsFragment"
+        android:name="com.example.pseudosteam.AchievementsFragment"
+        android:label="fragment_achievements"
+        tools:layout="@layout/fragment_achievements" />
+</navigation>
