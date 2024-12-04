@@ -20,4 +20,9 @@
         android:name="com.example.pseudosteam.AchievementsFragment"
         android:label="fragment_achievements"
         tools:layout="@layout/fragment_achievements" />
+    <fragment
+        android:id="@+id/recentlyPlayedFragment"
+        android:name="com.example.pseudosteam.RecentlyPlayedFragment"
+        android:label="fragment_recently_played"
+        tools:layout="@layout/fragment_recently_played" />
 </navigation>
